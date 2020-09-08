@@ -21,7 +21,6 @@ sudo cp /tmp/prometheus/prometheus /usr/local/bin/
 sudo cp /tmp/prometheus/promtool /usr/local/bin/
 sudo chown prometheus:prometheus /usr/local/bin/prometheus /usr/local/bin/promtool
 
-qq
 sudo cp -r prometheus/consoles /opt/prometheus
 sudo cp -r prometheus/console_libraries /opt/prometheus
 sudo chown -R prometheus:prometheus /opt/prometheus/consoles /opt/prometheus/console_libraries
