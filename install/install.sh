@@ -30,6 +30,8 @@ echo "Initial prometheus.yml file created at path /opt/prometheus"
 sudo cat << EOF > /opt/prometheus/prometheus.yml
 global:
   scrape_interval: 10s
+  external_labels:
+    cluster: 'Prometheus'
 
 scrape_configs:
   - job_name: 'prometheus'
