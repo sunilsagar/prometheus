@@ -1,6 +1,6 @@
 # Prometheus
 
-This page is test oage , how to install Prometheus server on linux with root user just with one script . 
+This page is test document page , how to install Prometheus server on linux with root user just with one script . 
 
 ```
 1. Login to server as root.
